@@ -620,8 +620,14 @@ img {
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--light-text-color);
+    transition: background-color var(--main-duration) var(--main-timing-function);
 
     cursor: pointer;
+}
+
+.form-btn:hover,
+.form-btn:focus {
+    background-color: #188CE8;
 }
 
 .mail-form-icon {
